@@ -1,0 +1,54 @@
+h1{
+    color: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    height: 100%;
+    background-color: yellow;
+}
+
+body{
+    height: 100%;
+} */
+
+
+// css 3
+body{
+    bottom: 150px;
+    overflow: hidden;
+    background-image: url('../img/freetileset/svg/Sample.svg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+  
+    
+
+}
+#player{
+    // background-color: red;
+    background-image: url('../img/adventure_girl/png/Idle\ \(1\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    bottom: 500px;
+}
+
+.turn{
+    transform: rotateY(180deg);
+}
+
+#ground{
+    background-image:url('../img/freetileset/png/Tiles/17.png') ;
+    // background-color: rgb(53, 12, 202);
+    width: 100vw;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+
+}
