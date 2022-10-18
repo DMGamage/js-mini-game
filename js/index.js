@@ -18,17 +18,17 @@ let dead =0;
 const draw = () => {
 
     if(dy!==0){
-        playerElm.style.backgroundImage= `url('../img/adventure_girl/png/Jump (${index++}).png')`;
+        playerElm.style.backgroundImage= `url('img/adventure_girl/png/Jump (${index++}).png')`;
 
     } else if(dx!==0){
-        playerElm.style.backgroundImage= `url('../img/adventure_girl/png/Run (${index++}).png')`;
+        playerElm.style.backgroundImage= `url('img/adventure_girl/png/Run (${index++}).png')`;
 
     }else if(!fire==0){
-        playerElm.style.backgroundImage= `url('../img/adventure_girl/png/Shoot (${index++}).png')`;
+        playerElm.style.backgroundImage= `url('img/adventure_girl/png/Shoot (${index++}).png')`;
 
     }else if(!dead==0){playerElm.style.backgroundImage= `url('../img/adventure_girl/png/Dead (${index++}).png')`;
     
-    }else playerElm.style.backgroundImage= `url('../img/adventure_girl/png/Idle (${index++}).png')`;
+    }else playerElm.style.backgroundImage= `url('img/adventure_girl/png/Idle (${index++}).png')`;
 
     if(index>10) index=1;
     requestAnimationFrame(draw);
