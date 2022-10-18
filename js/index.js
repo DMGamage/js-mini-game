@@ -26,7 +26,7 @@ const draw = () => {
     }else if(!fire==0){
         playerElm.style.backgroundImage= `url('img/adventure_girl/png/Shoot (${index++}).png')`;
 
-    }else if(!dead==0){playerElm.style.backgroundImage= `url('../img/adventure_girl/png/Dead (${index++}).png')`;
+    }else if(!dead==0){playerElm.style.backgroundImage= `url('img/adventure_girl/png/Dead (${index++}).png')`;
     
     }else playerElm.style.backgroundImage= `url('img/adventure_girl/png/Idle (${index++}).png')`;
 
